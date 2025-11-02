@@ -1,8 +1,17 @@
-# Naborly — Modern Community Social Platform
+# `Naborly`
 
-A full-featured local social platform built with Python, Streamlit, and SQLite, designed to connect neighbors and share community information.
+> *A modern community social platform built with Python, Streamlit, and SQLite*
 
-## 🌟 Features
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_App-blue?style=for-the-badge&logo=streamlit)](https://naborly.streamlit.app/)
+[![Python](https://img.shields.io/badge/Python-3.7+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.0+-red?style=for-the-badge&logo=streamlit)](https://streamlit.io/)
+[![SQLite](https://img.shields.io/badge/SQLite-3-green?style=for-the-badge&logo=sqlite)](https://www.sqlite.org/)
+
+<div align="center">
+  <h3><code>Connecting Neighbors, Building Community</code></h3>
+</div>
+
+## `🌟 Features`
 
 ### Community Feed
 - Instagram-style post feed with media support
@@ -71,29 +80,55 @@ hacknight/
 └── naborly.db           # SQLite database
 ```
 
-## 🚀 Getting Started
+## `🚀 Quick Start`
 
-1. **Prerequisites**
-   - Python 3.7+
-   - Git (optional)
+<details>
+<summary><code>Prerequisites</code></summary>
 
-2. **Installation**
-   ```powershell
-   # Clone the repository (or download ZIP)
-   git clone https://github.com/yourusername/hacknight.git
-   cd hacknight
+```bash
+Python 3.7+
+Git (optional)
+```
 
-   # Install requirements
-   pip install -r requirements.txt
+</details>
 
-   # Initialize the database
-   python setup_db.py
-   ```
+<details>
+<summary><code>Local Setup</code></summary>
 
-3. **Run the Application**
-   ```powershell
-   streamlit run Home.py
-   ```
+```bash
+# Clone the repository
+git clone https://github.com/harshrivastava/naborly.git
+
+# Navigate to project directory
+cd naborly
+
+# Create virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+.\venv\Scripts\activate   # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Initialize database
+python setup_db.py
+
+# Launch application
+streamlit run Home.py
+```
+
+</details>
+
+<details>
+<summary><code>Access the App</code></summary>
+
+```bash
+Local: http://localhost:8501
+Network: http://YOUR_IP:8501
+Live: https://naborly.streamlit.app/
+```
+
+</details>
 
 ## 💾 Database Schema
 
@@ -198,21 +233,72 @@ Media files are currently stored in the database but can be easily modified to u
 ### Authentication
 User authentication is handled securely with password hashing and session management. Default test accounts are created during database initialization.
 
-## 📝 Todo & Future Improvements
+## `📸 Screenshots`
 
-- [ ] Add search functionality
-- [ ] Implement user following system
-- [ ] Add direct messaging
-- [ ] Enhance media handling with cloud storage
-- [ ] Add post categories and tags
-- [ ] Implement notification system
-- [ ] Add user settings page
-- [ ] Enhanced security features
+<details>
+<summary><code>Click to view application screenshots</code></summary>
 
-## 🤝 Contributing
+![Screenshot](Screenshot%20(40).png)
 
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+</details>
 
-## 📄 License
+## `👥 Contributors`
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project exists thanks to all the people who contribute:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/harshrivastava">
+        <img src="https://github.com/harshrivastava.png" width="100px;" alt="Harsh Rivastava"/><br />
+        <sub><code>Harsh Rivastava</code></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Codexphere19">
+        <img src="https://github.com/Codexphere19.png" width="100px;" alt="Devansh Lakhera"/><br />
+        <sub><code>Devansh Lakhera</code></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/himanjhi07">
+        <img src="https://github.com/himanjhi07.png" width="100px;" alt="Himanshu Manjhi"/><br />
+        <sub><code>Himanshu Manjhi</code></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+## `📝 Todo & Future Improvements`
+
+```md
+◻️ Add search functionality
+◻️ Implement user following system
+◻️ Add direct messaging
+◻️ Enhance media handling with cloud storage
+◻️ Add post categories and tags
+◻️ Implement notification system
+◻️ Add user settings page
+◻️ Enhanced security features
+```
+
+## `🔗 Live Demo`
+
+Experience Naborly in action at [naborly.streamlit.app](https://naborly.streamlit.app/)
+
+## `🤝 Contributing`
+
+```bash
+1. Fork the repository
+2. Create your feature branch: git checkout -b feature/amazing-feature
+3. Commit your changes: git commit -m 'Add amazing feature'
+4. Push to the branch: git push origin feature/amazing-feature
+5. Open a Pull Request
+```
+
+## `📄 License`
+
+```
+MIT License
+Copyright (c) 2025 Naborly Team
+```
